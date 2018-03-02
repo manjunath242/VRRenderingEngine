@@ -1,0 +1,693 @@
+# Blender MTL File: 'untitled.blend'
+# Material Count: 63
+newmtl Material.001_basecolor.jpg
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.252852 0.252852 0.252852
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd image3.jpg
+
+
+newmtl Material.001_image0.jpg
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.252852 0.252852 0.252852
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd top1.jpg
+
+
+newmtl Material.001_image1.jpg
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.252852 0.252852 0.252852
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd image1.jpg
+
+
+newmtl Material.001_image6.jpg
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.252852 0.252852 0.252852
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd image6.jpg
+
+
+newmtl Material.001_image7.jpg
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.252852 0.252852 0.252852
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd image7.jpg
+
+
+newmtl Material.001_image9.jpg
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.252852 0.252852 0.252852
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd image9.jpg
+
+
+newmtl Material.001_untitled.001
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.252852 0.252852 0.252852
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd top.jpg
+
+
+newmtl Material.001_untitled.002
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.252852 0.252852 0.252852
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd side.jpg
+
+
+newmtl Material.001_untitled3
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.252852 0.252852 0.252852
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd bottom.jpg
+
+
+newmtl Material.002_basecolor.jpg
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.258065 0.258065 0.258065
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd image3.jpg
+
+
+newmtl Material.003
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 0
+map_Kd image4.jpg
+map_Ka image4.jpg
+
+
+newmtl Material.003_image4.jpg
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 0
+map_Kd image4.jpg
+map_Ka image4.jpg
+
+
+newmtl Material.004
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.177419 0.177419 0.177419
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd image6.jpg
+
+
+newmtl Material.004_image1.jpg
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.177419 0.177419 0.177419
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd image1.jpg
+
+
+newmtl Material.004_image5.jpg
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.177419 0.177419 0.177419
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd image5.jpg
+
+
+newmtl Material.004_image6.jpg
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.177419 0.177419 0.177419
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd image6.jpg
+
+
+newmtl Material.005_image1.jpg
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.156020 0.156020 0.156020
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd image1.jpg
+
+
+newmtl Material.005_image7.jpg
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.156020 0.156020 0.156020
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd image7.jpg
+
+
+newmtl Material.005_image9.jpg
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.156020 0.156020 0.156020
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd image9.jpg
+
+
+newmtl Material.005_tail
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.156020 0.156020 0.156020
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd tail.jpg
+
+
+newmtl Material.006_image10.jpg
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.128378 0.128378 0.128378
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd image10.jpg
+
+
+newmtl Material.006_image11.jpg
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.128378 0.128378 0.128378
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd image11.jpg
+
+
+newmtl Material.007_image6.jpg
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.630909 0.630909 0.630909
+Ks 0.005682 0.005682 0.005682
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd image6.jpg
+
+
+newmtl Material.007_lines.jpg
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.630909 0.630909 0.630909
+Ks 0.005682 0.005682 0.005682
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd lines.jpg
+
+
+newmtl Material.008_ciao
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.800000 0.800000
+Ks 1.000000 1.000000 1.000000
+Ni 1.000000
+d 1.000000
+illum 0
+map_Kd op.jpg
+map_Ka op.jpg
+
+
+newmtl Material.009_image1.jpg
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.053571 0.053571 0.053571
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd image1.jpg
+
+
+newmtl Material.009_image6.jpg
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.053571 0.053571 0.053571
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd image6.jpg
+
+
+newmtl Material.009_tail0.jpg
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.053571 0.053571 0.053571
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd tail0.jpg
+
+
+newmtl Material.010_top2
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd top2.jpg
+
+
+newmtl Material.011_image1.jpg
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.137255 0.137255 0.137255
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd image1.jpg
+
+
+newmtl Material.011_image6.jpg
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.137255 0.137255 0.137255
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd image6.jpg
+
+
+newmtl Material.011_lines.jpg
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.137255 0.137255 0.137255
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd lines.jpg
+
+
+newmtl Material.011_top3
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.137255 0.137255 0.137255
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd top3.jpg
+
+
+newmtl Material.012
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.150000 0.150000 0.150000
+Ni 1.000000
+d 1.000000
+illum 2
+
+
+newmtl Material.012_image1.jpg
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.150000 0.150000 0.150000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd image1.jpg
+
+
+newmtl Material.012_image13.jpg
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.150000 0.150000 0.150000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd image13.jpg
+
+
+newmtl Material.012_image4.jpg
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.150000 0.150000 0.150000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd image4.jpg
+
+
+newmtl Material.012_image6.jpg
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.150000 0.150000 0.150000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd image6.jpg
+
+
+newmtl Material.012_image7.jpg
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.150000 0.150000 0.150000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd image7.jpg
+
+
+newmtl Material.012_tail4
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.150000 0.150000 0.150000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd tail4.jpg
+
+
+newmtl Material.012_tail5
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.150000 0.150000 0.150000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd tail5.jpg
+
+
+newmtl Material.012_top4
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.150000 0.150000 0.150000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd top4.jpg
+
+
+newmtl Material.012_top5
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.150000 0.150000 0.150000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd top5.jpg
+
+
+newmtl Material.012_top5_1.jpg
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.150000 0.150000 0.150000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd top5_1.jpg
+
+
+newmtl Material.013_image7.jpg
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.041667 0.041667 0.041667
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd image7.jpg
+
+
+newmtl Material.013_image9.jpg
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.041667 0.041667 0.041667
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd image9.jpg
+
+
+newmtl Material.014_image6.jpg
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.800000 0.800000
+Ks 1.000000 1.000000 1.000000
+Ni 1.000000
+d 1.000000
+illum 0
+map_Kd image6.jpg
+map_Ka image6.jpg
+
+
+newmtl Material.016_image10.jpg
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.800000 0.800000
+Ks 1.000000 1.000000 1.000000
+Ni 1.000000
+d 1.000000
+illum 0
+map_Kd image10.jpg
+map_Ka tail3.jpg
+
+
+newmtl Material.016_tail3.jpg
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.800000 0.800000
+Ks 1.000000 1.000000 1.000000
+Ni 1.000000
+d 1.000000
+illum 0
+map_Kd tail3.jpg
+map_Ka tail3.jpg
+
+
+newmtl Material.017_image6.jpg
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.172131 0.172131 0.172131
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd image6.jpg
+
+
+newmtl Material_image0.jpg
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.635556 0.635556 0.635556
+Ks 0.281915 0.281915 0.281915
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd top1.jpg
+
+
+newmtl Material_image1.jpg
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.635556 0.635556 0.635556
+Ks 0.281915 0.281915 0.281915
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd image1.jpg
+
+
+newmtl Material_image2.jpg
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.635556 0.635556 0.635556
+Ks 0.281915 0.281915 0.281915
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd image2.jpg
+
+
+newmtl Material_image6.jpg
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.635556 0.635556 0.635556
+Ks 0.281915 0.281915 0.281915
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd image6.jpg
+
+
+newmtl Material_image7.jpg
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.635556 0.635556 0.635556
+Ks 0.281915 0.281915 0.281915
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd image7.jpg
+
+
+newmtl Material_tail
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.635556 0.635556 0.635556
+Ks 0.281915 0.281915 0.281915
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd tail.jpg
+
+
+newmtl None_image1.jpg
+Ns 0
+Ka 0.000000 0.000000 0.000000
+Kd 0.8 0.8 0.8
+Ks 0.8 0.8 0.8
+d 1
+illum 2
+map_Kd image1.jpg
+
+
+newmtl None_image6.jpg
+Ns 0
+Ka 0.000000 0.000000 0.000000
+Kd 0.8 0.8 0.8
+Ks 0.8 0.8 0.8
+d 1
+illum 2
+map_Kd image6.jpg
+
+
+newmtl None_tail
+Ns 0
+Ka 0.000000 0.000000 0.000000
+Kd 0.8 0.8 0.8
+Ks 0.8 0.8 0.8
+d 1
+illum 2
+map_Kd tail.jpg
+
+
+newmtl _image1.jpg
+Ns 0
+Ka 0.000000 0.000000 0.000000
+Kd 0.8 0.8 0.8
+Ks 0.8 0.8 0.8
+d 1
+illum 2
+map_Kd image1.jpg
+
+
+newmtl _image4.jpg
+Ns 0
+Ka 0.000000 0.000000 0.000000
+Kd 0.8 0.8 0.8
+Ks 0.8 0.8 0.8
+d 1
+illum 2
+map_Kd image4.jpg
+
+
+newmtl _image6.jpg
+Ns 0
+Ka 0.000000 0.000000 0.000000
+Kd 0.8 0.8 0.8
+Ks 0.8 0.8 0.8
+d 1
+illum 2
+map_Kd image6.jpg
+
+
+newmtl _image8.jpg
+Ns 0
+Ka 0.000000 0.000000 0.000000
+Kd 0.8 0.8 0.8
+Ks 0.8 0.8 0.8
+d 1
+illum 2
+map_Kd image8.jpg
+
+

@@ -1,0 +1,45 @@
+newmtl a:Disc_2SG
+illum 4
+Kd 0.18 0.64 0.80
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.20 0.20 0.20
+Ns 30.00
+newmtl a:LandscapeSG
+illum 4
+map_Kd /blue.png
+
+Kd 0.09 0.10 0.37
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl a:LandscapeSG1
+illum 4
+map_Kd /darkblue.png
+
+Kd 0.08 0.09 0.65
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl a:Sphere_2SG
+illum 4
+map_Kd /pink.png
+
+Kd 0.80 0.10 0.72
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.20 0.20 0.20
+Ns 30.00
+newmtl a:Sphere_2SG2
+illum 4
+map_Kd /black.png
+
+Kd 0.21 0.59 0.80
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.20 0.20 0.20
+Ns 30.00
+map_Kd /lightblue.png

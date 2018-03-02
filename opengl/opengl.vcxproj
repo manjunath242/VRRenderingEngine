@@ -1,0 +1,252 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{2564AE56-8C47-44F6-A17E-ACB66AEE2CF9}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>opengl</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(ProjectDir)ThirdParty\glew\include;$(ProjectDir)ThirdParty\SOIL\include;$(ProjectDir)\ThirdParty\glm;$(ProjectDir)ThirdParty\GLFW\include;$(ProjectDir)ThirdParty\GL\include;$(ProjectDir)ThirdParty\assimp\include;$(ProjectDir)ThirdParty\OpenAL\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(ProjectDir)ThirdParty\SOIL\lib;$(ProjectDir)ThirdParty\GLFW\lib;$(ProjectDir)ThirdParty\GL\lib;$(ProjectDir)ThirdParty\assimp\lib;$(ProjectDir)ThirdParty\OpenAL\libs\Win32;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(ProjectDir)ThirdParty\glew\include;$(ProjectDir)ThirdParty\SOIL\include;$(ProjectDir)\ThirdParty\glm;$(ProjectDir)ThirdParty\GLFW\include;$(ProjectDir)ThirdParty\GL\include;$(ProjectDir)ThirdParty\assimp\include;$(ProjectDir)ThirdParty\OpenAL\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(ProjectDir)ThirdParty\OpenAL\libs\Win32;$(ProjectDir)ThirdParty\SOIL\lib;$(ProjectDir)ThirdParty\GLFW\lib;$(ProjectDir)ThirdParty\GL\lib;$(ProjectDir)ThirdParty\assimp\lib;$(WindowsSDK_LibraryPath_x86);$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(ProjectDir)\ThirdParty\glm;$(ProjectDir)ThirdParty\glew\include;$(ProjectDir)ThirdParty\GLFW\include;$(ProjectDir)ThirdParty\SOIL\include;$(ProjectDir)ThirdParty\assimp\include;$(ProjectDir)ThirdParty\GL\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(ProjectDir)ThirdParty\SOIL\lib;$(ProjectDir)ThirdParty\Bullet\lib\Debug\;$(ProjectDir)ThirdParty\GLFW\lib;$(ProjectDir)ThirdParty\GL\lib;$(ProjectDir)ThirdParty\assimp\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_CRT_NONSTDC_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(ProjectDir)ThirdParty\GL\include;$(ProjectDir)ThirdParty\OculusSDK\LibOVRKernel\Src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>$(ProjectDir)ThirdParty\OculusSDK\LibOVR\Lib\LibOVR.lib;$(ProjectDir)ThirdParty\OpenAL\libs\Win32\OpenAL32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(ProjectDir)ThirdParty\GL\include;$(ProjectDir)ThirdParty\OculusSDK\LibOVRKernel\Src\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>$(ProjectDir)ThirdParty\OculusSDK\LibOVR\Lib\LibOVR.lib;$(ProjectDir)ThirdParty\OpenAL\libs\Win32\OpenAL32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="ActorFactory.cpp" />
+    <ClCompile Include="aldlist.cpp" />
+    <ClCompile Include="BackgroundMusic.cpp" />
+    <ClCompile Include="BGMovingObjects.cpp" />
+    <ClCompile Include="Bullet.cpp" />
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="Coral.cpp" />
+    <ClCompile Include="CWaves.cpp" />
+    <ClCompile Include="EnvironmentObject.cpp" />
+    <ClCompile Include="Flockers.cpp" />
+    <ClCompile Include="Framework.cpp" />
+    <ClCompile Include="Frustum.cpp" />
+    <ClCompile Include="FSM.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="Lamp.cpp" />
+    <ClCompile Include="LoadOAL.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Mesh.cpp" />
+    <ClCompile Include="Model.cpp" />
+    <ClCompile Include="NormalEnemy.cpp" />
+    <ClCompile Include="ParticleSystem.cpp" />
+    <ClCompile Include="PlaneClass.cpp" />
+    <ClCompile Include="ResourceManager.cpp" />
+    <ClCompile Include="Satellite.cpp" />
+    <ClCompile Include="Shader.cpp" />
+    <ClCompile Include="Source\3rdPartyTools\tinystr.cpp" />
+    <ClCompile Include="Source\3rdPartyTools\tinyxml.cpp" />
+    <ClCompile Include="Source\3rdPartyTools\tinyxml2.cpp" />
+    <ClCompile Include="Source\3rdPartyTools\tinyxmlerror.cpp" />
+    <ClCompile Include="Source\3rdPartyTools\tinyxmlparser.cpp" />
+    <ClCompile Include="SphereCollider.cpp" />
+    <ClCompile Include="Spiral.cpp" />
+    <ClCompile Include="Texture2D.cpp" />
+    <ClCompile Include="ThirdParty\OculusSDK\LibOVRKernel\Src\GL\CAPI_GLE.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ActorFactory.h" />
+    <ClInclude Include="aldlist.h" />
+    <ClInclude Include="BackgroundMusic.h" />
+    <ClInclude Include="BGMovingObjects.h" />
+    <ClInclude Include="Bullet.h" />
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="Coral.h" />
+    <ClInclude Include="CWaves.h" />
+    <ClInclude Include="EnvironmentObject.h" />
+    <ClInclude Include="Flockers.h" />
+    <ClInclude Include="Framework.h" />
+    <ClInclude Include="Frustum.h" />
+    <ClInclude Include="FSM.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="Lamp.h" />
+    <ClInclude Include="Lights.h" />
+    <ClInclude Include="LoadOAL.h" />
+    <ClInclude Include="Mesh.h" />
+    <ClInclude Include="Model.h" />
+    <ClInclude Include="NormalEnemy.h" />
+    <ClInclude Include="ParticleSystem.h" />
+    <ClInclude Include="PlaneClass.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="ResourceManager.h" />
+    <ClInclude Include="Satellite.h" />
+    <ClInclude Include="Shader.h" />
+    <ClInclude Include="Skybox.h" />
+    <ClInclude Include="Source\3rdPartyTools\tinystr.h" />
+    <ClInclude Include="Source\3rdPartyTools\tinyxml.h" />
+    <ClInclude Include="Source\3rdPartyTools\tinyxml2.h" />
+    <ClInclude Include="SphereCollider.h" />
+    <ClInclude Include="Spiral.h" />
+    <ClInclude Include="String.h" />
+    <ClInclude Include="Texture2D.h" />
+    <ClInclude Include="ThirdParty\OculusSDK\LibOVRKernel\Src\GL\CAPI_GLE.h" />
+    <ClInclude Include="ThirdParty\OculusSDK\LibOVRKernel\Src\GL\CAPI_GLE_GL.h" />
+    <ClInclude Include="Win32_GLAppUtil.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shaders\fragmentShader_default.frag" />
+    <None Include="Shaders\fragmentShader_Coral.frag" />
+    <None Include="Shaders\fragmentShader_LightContainer.frag" />
+    <None Include="Shaders\fragmentShader_Quad.frag" />
+    <None Include="Shaders\fragmentShader_Skybox.frag" />
+    <None Include="Shaders\fragmentShader_Skysphere.frag" />
+    <None Include="Shaders\particle.frag" />
+    <None Include="Shaders\particle.vs" />
+    <None Include="Shaders\vertexShader_default.vs" />
+    <None Include="Shaders\vertexShader_Coral.vs" />
+    <None Include="Shaders\vertexShader_LightContainer.vs" />
+    <None Include="Shaders\vertexShader_Quad.vs" />
+    <None Include="Shaders\vertexShader_Skybox.vs" />
+    <None Include="Shaders\vertexShader_Skysphere.vs" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

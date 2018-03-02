@@ -1,0 +1,19 @@
+newmtl PlatonicSG3
+illum 4
+Kd 0.18 0.20 0.48
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.20 0.20 0.20
+Ns 30.00
+newmtl a:Disc_2SG
+illum 4
+map_Kd /blue.png
+
+Kd 0.18 0.64 0.80
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.20 0.20 0.20
+Ns 30.00
+map_Kd /blue.png

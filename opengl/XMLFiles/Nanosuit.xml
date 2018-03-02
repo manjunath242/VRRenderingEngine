@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<Actor>
+	<Path>
+		Models/Nanosuit/nanosuit.obj
+	</Path>
+	<InitialTransform>
+		0
+	</InitialTransform>
+	<InitialScale>
+		0.2
+	</InitialScale>
+</Actor>
